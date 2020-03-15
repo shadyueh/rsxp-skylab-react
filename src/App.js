@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import profile from './assets/software-developer.jpg';
+
 function App(){
-    return <h1>Hello RocketSeat</h1>
+    return <img height="200" src={profile} />
 }
 
 export default App;
